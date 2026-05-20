@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Name</title>
+  <title>Yogendra Limbu</title>
   <style>
     body { font-family: Arial; margin: 60px; max-width: 900px; }
     h1 { color: #1a73e8; }
