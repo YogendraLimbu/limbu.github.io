@@ -22,8 +22,11 @@
 
 <h2>Biography</h2>
 <p>
-I am a PhD student in Physics...
-Replace this text with your bio.
+I am Yogendra Limbu, a condensed matter physicist specializing in first-principles studies of strongly correlated quantum materials. I recently completed my Ph.D. in Physics at the University of Iowa (April 2026), where my research focused on electronic structure, magnetism, and crystal-field effects in rare-earth and transition-metal systems.
+
+My work focuses on 4f electron physics, crystal-field splitting, spin–phonon coupling, and magnetic interactions in complex materials, using density functional theory (DFT) and related computational methods. I am particularly interested in quantum materials for applications in quantum information science and spin-based technologies.
+
+I also have experience in teaching, HPC-based computational research, and scientific computing using tools such as VASP, Quantum ESPRESSO, and Python-based analysis workflows.
 </p>
 
 <h2>Research</h2>
