@@ -40,7 +40,7 @@ My research focuses on first-principles investigations of strongly correlated qu
   <b>1. A defect in diamond with millisecond-scale spin relaxation time at room temperature </b><br>
   Sounak Mukherjee, Anran Li, Johannes Eberle, Sean Karg, Zi-Huai Zhang, Mayer M. Feldman, Yilin Chen, Mark E. Turiansky, Mengen Wang, Yogendra Limbu, Tharnier O. Puel, Yueguang Shi, Matthew L. Markham, Rajesh L. Patel, Patryk Gumann, Michael E. Flatte, Chris G. Van de Walle, Stephen A. Lyon, Nathalie P. de Leon
   <i>Journal Name, Year</i><br>
-  <a href="#">PDF</a> | <a href="#">DOI</a>
+  <a href="#">PDF</a> | <a href="#">arXiv:2603.07265</a>
 </div>
 
 <div style="margin-bottom:20px;">
