@@ -31,7 +31,7 @@ I also have experience in teaching, HPC-based computational research, and scient
 
 <h2>Research</h2>
 <p>
-Your research description goes here.
+My research focuses on first-principles investigations of strongly correlated quantum materials, with an emphasis on rare-earth and transition-metal systems. I study 4f electron physics, including crystal-field splitting, magnetic anisotropy, and spin–phonon coupling in rare-earth ions embedded in insulating hosts. I also work on quantum defects and low-dimensional materials, exploring how electronic structure governs emergent magnetic and quantum behaviors. Using density functional theory (DFT) and advanced electronic-structure methods, I aim to understand and engineer materials for applications in quantum information science, spintronics, and energy-efficient magnonic systems.
 </p>
 
 </body>
