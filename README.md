@@ -54,6 +54,5 @@ My research focuses on first-principles investigations of strongly correlated qu
       https://doi.org/10.48550/arXiv.2603.07265
     </a>
   </div>
-
 </body>
 </html>
