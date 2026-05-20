@@ -18,7 +18,7 @@
   <a href="#">PUBLICATIONS</a>
 </div>
 
-<h1>Your Name</h1>
+<h1>Yogendra Limbu</h1>
 
 <h2>Biography</h2>
 <p>
