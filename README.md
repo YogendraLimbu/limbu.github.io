@@ -44,7 +44,7 @@ My research focuses on first-principles investigations of strongly correlated qu
 
   <div style="margin-bottom:5px;">
     Sounak Mukherjee, Anran Li, Johannes Eberle, Sean Karg, Zi-Huai Zhang, Mayer M. Feldman,
-    Yilin Chen, Mark E. Turiansky, Mengen Wang, <b>Yogendra Limbu</b>, Tharnier O. Puel, Yueguang Shi,
+    Yilin Chen, Mark E. Turiansky, Mengen Wang, <strong><u>Yogendra Limbu<strong><u>, Tharnier O. Puel, Yueguang Shi,
     Matthew L. Markham, Rajesh L. Patel, Patryk Gumann, Michael E. Flatté, Chris G. Van de Walle,
     Stephen A. Lyon, Nathalie P. de Leon
   </div>
