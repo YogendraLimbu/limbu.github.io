@@ -1,1 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 950px;
+    margin: 50px auto;
+    line-height: 1.7;
+    color: #222;
+    padding: 20px;
+}
 
+nav {
+    margin-bottom: 40px;
+}
+
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #1a73e8;
+}
+
+h1 {
+    color: #1a73e8;
+    font-size: 34px;
+}
+
+h2 {
+    margin-top: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.paper {
+    margin-bottom: 30px;
+}
+
+.paper-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.journal {
+    color: gray;
+    font-style: italic;
+}
