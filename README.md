@@ -55,13 +55,5 @@ My research focuses on first-principles investigations of strongly correlated qu
     </a>
   </div>
 
-
-<div style="margin-bottom:20px;">
-  <b>2. Another paper title</b><br>
-  Author1, Author2, <b>Your Name</b><br>
-  <i>Conference Name, Year</i><br>
-  <a href="#">PDF</a> | <a href="#">DOI</a>
-</div>
-
 </body>
 </html>
