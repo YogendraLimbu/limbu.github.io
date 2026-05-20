@@ -34,5 +34,21 @@ I also have experience in teaching, HPC-based computational research, and scient
 My research focuses on first-principles investigations of strongly correlated quantum materials, with an emphasis on rare-earth and transition-metal systems. I study 4f electron physics, including crystal-field splitting, magnetic anisotropy, and spin–phonon coupling in rare-earth ions embedded in insulating hosts. I also work on quantum defects and low-dimensional materials, exploring how electronic structure governs emergent magnetic and quantum behaviors. Using density functional theory (DFT) and advanced electronic-structure methods, I aim to understand and engineer materials for applications in quantum information science, spintronics, and energy-efficient magnonic systems.
 </p>
 
+<h2>Publications</h2>
+
+<div style="margin-bottom:20px;">
+  <b>1. Title of your paper goes here</b><br>
+  Author1, <b>Your Name</b>, Author3<br>
+  <i>Journal Name, Year</i><br>
+  <a href="#">PDF</a> | <a href="#">DOI</a>
+</div>
+
+<div style="margin-bottom:20px;">
+  <b>2. Another paper title</b><br>
+  Author1, Author2, <b>Your Name</b><br>
+  <i>Conference Name, Year</i><br>
+  <a href="#">PDF</a> | <a href="#">DOI</a>
+</div>
+
 </body>
 </html>
