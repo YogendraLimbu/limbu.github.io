@@ -50,16 +50,11 @@ My research focuses on first-principles investigations of strongly correlated qu
   </div>
 
   <div style="font-style:italic; color:gray; margin-bottom:5px;">
-    arXiv, 2026
-  </div>
-
-  <div>
-    <a href="https://doi.org/10.48550/arXiv.2603.07265" target="_blank">
+    arXiv, 2026  <a href="https://doi.org/10.48550/arXiv.2603.07265" target="_blank">
       https://doi.org/10.48550/arXiv.2603.07265
     </a>
   </div>
 
-</div>
 
 <div style="margin-bottom:20px;">
   <b>2. Another paper title</b><br>
