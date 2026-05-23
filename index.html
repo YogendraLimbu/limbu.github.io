@@ -16,7 +16,7 @@
         }
 
         .container {
-            max-width: 900px; /* Reduced slightly for optimal readability of full-width academic text */
+            max-width: 900px;
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -53,28 +53,29 @@
             padding: 50px 0;
         }
 
-        .name-heading {
-            font-size: 42px;
-            color: #3b82f6;
-            margin-top: 0;
-            margin-bottom: 30px;
-            font-weight: 700;
-            text-align: left;
-        }
-
-        /* Center the photo container below the name */
-        .photo-container {
-            margin-bottom: 40px;
+        /* Combined Profile Header Container */
+        .profile-header {
             text-align: center;
+            margin-bottom: 50px;
         }
 
+        /* Enlarged Photo Styles */
         .photo-container img {
             width: 100%;
-            max-width: 320px; /* Slightly adjusted to look great centered */
+            max-width: 500px; /* Increased from 320px to 500px to make it quite large */
             height: auto;
             border-radius: 4px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             display: inline-block;
+            margin-bottom: 20px; /* Space between photo and name below it */
+        }
+
+        /* Name Heading Centered Below Photo */
+        .name-heading {
+            font-size: 42px;
+            color: #3b82f6;
+            margin: 0;
+            font-weight: 700;
         }
 
         /* Full-width content sections */
@@ -118,10 +119,11 @@
 
     <main class="container">
         
-        <h1 class="name-heading">Yogendra Limbu</h1>
-
-        <div class="photo-container">
-            <img src="profile.jpg" alt="Yogendra Limbu">
+        <div class="profile-header">
+            <div class="photo-container">
+                <img src="profile.jpg" alt="Yogendra Limbu">
+            </div>
+            <h1 class="name-heading">Yogendra Limbu</h1>
         </div>
         
         <div class="content-section">
