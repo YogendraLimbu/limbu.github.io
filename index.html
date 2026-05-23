@@ -16,7 +16,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 900px; /* Reduced slightly for optimal readability of full-width academic text */
             margin: 0 auto;
             padding: 0 20px;
         }
@@ -48,7 +48,7 @@
             color: #3b82f6;
         }
 
-        /* Main Content Grid */
+        /* Main Content Layout */
         main {
             padding: 50px 0;
         }
@@ -57,30 +57,31 @@
             font-size: 42px;
             color: #3b82f6;
             margin-top: 0;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             font-weight: 700;
+            text-align: left;
         }
 
-        .profile-section {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 40px;
-            align-items: start;
+        /* Center the photo container below the name */
+        .photo-container {
+            margin-bottom: 40px;
+            text-align: center;
         }
 
-        @media (max-width: 768px) {
-            .profile-section {
-                grid-template-columns: 1fr;
-            }
-            .photo-container {
-                order: -1; /* Puts photo on top on mobile devices */
-            }
+        .photo-container img {
+            width: 100%;
+            max-width: 320px; /* Slightly adjusted to look great centered */
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            display: inline-block;
         }
 
-        .bio-container h2 {
+        /* Full-width content sections */
+        .content-section h2 {
             font-size: 28px;
             color: #222222;
-            margin-top: 0;
+            margin-top: 40px;
             margin-bottom: 15px;
             border-bottom: 1px solid #eaeaea;
             padding-bottom: 10px;
@@ -91,103 +92,6 @@
             font-size: 16px;
             color: #444444;
             text-align: justify;
-        }
-
-        /* Photo Styles */
-        .photo-container img {
-            width: 100%;
-            max-width: 280px;
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            display: block;
-            margin: 0 auto;
-        }
-
-        /* Quick Links / Buttons */
-        .cta-buttons {
-            margin-top: 30px;
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #3b82f6;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: 600;
-            font-size: 14px;
-            transition: background-color 0.2s;
-        }
-
-        .btn:hover {
-            background-color: #2563eb;
-        }
-
-        .btn-secondary {
-            background-color: #f3f4f6;
-            color: #1f2937;
-        }
-
-        .btn-secondary:hover {
-            background-color: #e5e7eb;
-        }
-
-        /* Bottom Sections Grid */
-        .extra-sections {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 1px solid #eaeaea;
-        }
-
-        @media (max-width: 768px) {
-            .extra-sections {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .section-title {
-            font-size: 22px;
-            color: #222222;
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-
-        /* Bullet lists */
-        .interests-list {
-            padding-left: 20px;
-            margin: 0;
-        }
-
-        .interests-list li {
-            margin-bottom: 10px;
-            color: #444444;
-        }
-
-        /* News List */
-        .news-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .news-item {
-            margin-bottom: 15px;
-            font-size: 15px;
-            color: #444444;
-        }
-
-        .news-date {
-            font-weight: 700;
-            color: #3b82f6;
-            margin-right: 8px;
         }
 
         /* Footer */
@@ -216,78 +120,65 @@
         
         <h1 class="name-heading">Yogendra Limbu</h1>
 
-            </div>
-
-            <div class="photo-container">
-                <img src="profile.jpg" alt="Yogendra Limbu">
-            </div>
-
+        <div class="photo-container">
+            <img src="profile.jpg" alt="Yogendra Limbu">
         </div>
         
-        
-        <div class="profile-section">
-            
-        <div class="bio-container">
-        <h2>Biography</h2>
-        <div class="bio-text">
-        <p> I am Yogendra Limbu from Nepal. I earned my Master’s degree in Physics from Tribhuvan University, Nepal, 
-            where my thesis focused on the First Principles Study of Properties of Functionalized MXene (Ti<sub>2</sub>N) 
-            and Defect on MXene Mono-Layers. 
-            In August 2022, I joined the research group of Prof. Michael E. Flatté at The University of Iowa to pursue 
-            a Ph.D. in Physics. My doctoral research centered on the ab initio investigation of strongly correlated
-            quantum materials, with particular emphasis on transition-metal- and rare-earth-based systems embedded
-            in wide-band-gap semiconductors and insulators, as well as rare-earth-containing molecular complexes. 
-            My dissertation, titled "<i>Ab initio</i> Study of Strongly Correlated Systems: Rare Earth Hosted Oxides and Molecule
-            and Two Dimensional MXene", explored the structural, electronic, magnetic, and excitation properties of 
-            these materials using first-principles computational methods.
-            I received my Ph.D. in Physics from The University of Iowa in April 2026.</p>
-  <h2>Strongly Correlated Quantum Materials</h2>
-  <div class="bio-text">
-    <p>
-        Strongly correlated quantum materials, such as rare-earth and transition-metal compounds, exhibit
-        emergent electronic and magnetic phenomena that arise from strong electron–electron interactions. These systems
-        play a central role in quantum information science and spintronics. Understanding their functional properties
-        requires detailed knowledge of their electronic structure, magnetic ordering, and the many-body effects associated
-        with localized 3d and 4f electrons.
-    </p>
-</div>
+        <div class="content-section">
+            <h2>Biography</h2>
+            <div class="bio-text">
+                <p>I am Yogendra Limbu from Nepal. I earned my Master’s degree in Physics from Tribhuvan University, Nepal, 
+                where my thesis focused on the First Principles Study of Properties of Functionalized MXene (Ti<sub>2</sub>N) 
+                and Defect on MXene Mono-Layers. In August 2022, I joined the research group of Prof. Michael E. Flatté at The University of Iowa to pursue 
+                a Ph.D. in Physics. My doctoral research centered on the ab initio investigation of strongly correlated
+                quantum materials, with particular emphasis on transition-metal- and rare-earth-based systems embedded
+                in wide-band-gap semiconductors and insulators, as well as rare-earth-containing molecular complexes. 
+                My dissertation, titled "<i>Ab initio</i> Study of Strongly Correlated Systems: Rare Earth Hosted Oxides and Molecule
+                and Two Dimensional MXene", explored the structural, electronic, magnetic, and excitation properties of 
+                these materials using first-principles computational methods. I received my Ph.D. in Physics from The University of Iowa in April 2026.</p>
+            </div>
 
-<h2>Research Motivation</h2>
-<div class="bio-text">
-    <p>
-        Rare-earth ions embedded in solid-state hosts are promising platforms for quantum technologies due to their
-        partially filled 4f electronic shells, which are well shielded by outer orbitals. This shielding leads to
-        narrow optical transitions, long spin coherence times, and weak coupling to the environment—key properties for
-        applications such as quantum memories, quantum networks, and microwave-to-optical quantum transduction.
-    </p>
+            <h2>Strongly Correlated Quantum Materials</h2>
+            <div class="bio-text">
+                <p>
+                    Strongly correlated quantum materials, such as rare-earth and transition-metal compounds, exhibit
+                    emergent electronic and magnetic phenomena that arise from strong electron–electron interactions. These systems
+                    play a central role in quantum information science and spintronics. Understanding their functional properties
+                    requires detailed knowledge of their electronic structure, magnetic ordering, and the many-body effects associated
+                    with localized 3d and 4f electrons.
+                </p>
+            </div>
 
-    <p>
-        In many rare-earth systems, the spin and orbital states can be optically addressed and coherently manipulated,
-        enabling their use as scalable solid-state qubits. A critical aspect of these systems is the crystal-field
-        interaction, which lifts the degeneracy of the 4f electronic levels and strongly influences the energy-level
-        structure and optical response.
-    </p>
+            <h2>Research Motivation</h2>
+            <div class="bio-text">
+                <p>
+                    Rare-earth ions embedded in solid-state hosts are promising platforms for quantum technologies due to their
+                    partially filled 4f electronic shells, which are well shielded by outer orbitals. This shielding leads to
+                    narrow optical transitions, long spin coherence times, and weak coupling to the environment—key properties for
+                    applications such as quantum memories, quantum networks, and microwave-to-optical quantum transduction.
+                </p>
 
-    <p>
-        In addition, rare-earth dopants can significantly modify the electronic and magnetic properties of host materials
-        through multiple stable charge states and localized defect states. A quantitative understanding of these effects
-        requires accurate modeling of defect formation energies, charge-state stability, and the interplay between
-        local chemical environment and electronic structure.
-    </p>
+                <p>
+                    In many rare-earth systems, the spin and orbital states can be optically addressed and coherently manipulated,
+                    enabling their use as scalable solid-state qubits. A critical aspect of these systems is the crystal-field
+                    interaction, which lifts the degeneracy of the 4f electronic levels and strongly influences the energy-level
+                    structure and optical response.
+                </p>
 
-    <p>
-        My research focuses on systematically investigating these phenomena using first-principles methods, with emphasis
-        on electronic structure, magnetic properties, and defect physics in rare-earth-doped systems. In particular, I aim
-        to understand how local coordination environments modulate crystal-field energy levels and thereby influence the 
-        performance of rare-earth ions in quantum information science applications.
-    </p>
-</div>
-                   
+                <p>
+                    In addition, rare-earth dopants can significantly modify the electronic and magnetic properties of host materials
+                    through multiple stable charge states and localized defect states. A quantitative understanding of these effects
+                    requires accurate modeling of defect formation energies, charge-state stability, and the interplay between
+                    local chemical environment and electronic structure.
+                </p>
 
-
-        <div class="extra-sections">
-       
-
+                <p>
+                    My research focuses on systematically investigating these phenomena using first-principles methods, with emphasis
+                    on electronic structure, magnetic properties, and defect physics in rare-earth-doped systems. In particular, I aim
+                    to understand how local coordination environments modulate crystal-field energy levels and thereby influence the 
+                    performance of rare-earth ions in quantum information science applications.
+                </p>
+            </div>
         </div>
 
     </main>
